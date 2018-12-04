@@ -1,0 +1,63 @@
+html{
+    font-size: 12px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+}
+.cuerpo{
+    font-size: 1.5rem;
+    color: #231f20;
+}
+.bold{
+    font-weight: 700;
+    color: black;
+}
+.noShadow {
+    box-shadow: none;
+}
+.btn-outline-black {
+    border: 1px solid #000!important;
+    background-color: transparent!important;
+    color: #000!important;
+}
+.btn-outline-black.active, .btn-outline-black:active, .btn-outline-black:active:focus, .btn-outline-black:focus, .btn-outline-black:hover {
+    border-color: #000!important;
+    background-color: #dee03c !important;
+    color: #000!important;
+}
+
+#contacto{
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    background-color: #dee03c ;
+}
+.card { 
+    background-color: transparent !important;
+}
+
+input[type=search-md], .md-form input[type=search], .md-form input[type=tel], .md-form input[type=text], .md-form input[type=time], .md-form input[type=url], .md-form textarea.md-textarea {
+    border-bottom: 1px solid #000;
+}
+ .md-form textarea.md-textarea {
+    border: 1px solid #000;
+     padding: 0.5rem 0.5rem 1.5rem 0.5rem ;
+}
+.md-form .form-control:disabled, .md-form .form-control[readonly] {
+    border-bottom: 1px solid #212529;
+}
+.md-form label {
+    left: .8rem;
+    color: #231f20;
+}
+.md-form label:focus {
+    left: .8rem;
+    color: #231f20;
+}
+.md-form input[type=date]:focus:not([readonly]), .md-form input[type=datetime-local]:focus:not([readonly]), .md-form input[type=email]:focus:not([readonly]), .md-form input[type=number]:focus:not([readonly]), .md-form input[type=password]:focus:not([readonly]), .md-form input[type=search-md]:focus:not([readonly]), .md-form input[type=search]:focus:not([readonly]), .md-form input[type=tel]:focus:not([readonly]), .md-form input[type=text]:focus:not([readonly]), .md-form input[type=time]:focus:not([readonly]), .md-form input[type=url]:focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]) {
+    -webkit-box-shadow: 0 1px 0 0 #212121;
+    box-shadow: 0 1px 0 0 #212121;
+    border-bottom: 1px solid #212121;
+    color: #212121;
+}

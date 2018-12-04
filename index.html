@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YBIM</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- LayerSlider CSS -->
+    <link rel="stylesheet" href="layerslider/css/layerslider.css">
+</head>
+
+<body>
+
+    <div class="navbar-toggle text-center" title="Menu">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <h6 class="text-center">Menu</h6>
+    </div>
+    <nav class="nav-hide">
+        <ul>
+            <li><a href="#" class="btnNav" onclick="$('#slider').animatescroll();">HOME</a></li>
+            <li><a href="#" class="btnNav" onclick="$('#marcas').animatescroll();">NUESTRAS MARCAS</a></li>
+            <li><a href="#" class="btnNav" onclick="$('#contacto').animatescroll();">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <!-- Slider HTML markup -->
+    <div id="slider" style="width:1280px;height:720px;margin:0 auto;margin-bottom: 0px;">
+
+        <!-- Slide 2-->
+        <div class="ls-slide" data-ls="duration:5000; transition2d:104; timeshift:-1000; kenburnsscale:1.2;">
+            <img width="1280" height="720" src="images/YBIM-slide-principal.png" class="ls-bg" alt="" />
+            <!-- <div style="top:292px; left:67px;" class="ls-l" data-ls="offsetxin:-600; offsetyin:100; durationin:4000; delayin:1000; easingin:easeOutQuart; fadein:false; offsetxout:2400; offsetyout:-400; easingout:easeInQuart; fadeout:false; scalexout:.9; scaleyout:.9; parallaxlevel:0;">
+				<img src="images/clownfish.png" alt="Clownfish">
+			</div> -->
+            <!-- <div style="font-weight: 300;font-family:Lato, 'Open Sans', sans-serif; font-size:50px; color:#ffa724; top:150px; left:730px;" class="ls-l" data-ls="durationin:3000; delayin:1500; easingin:easeOutElastic; rotatexin:90; transformoriginin:50% bottom 0; durationout:400; rotatexout:90; transformoriginout:50% bottom 0; parallaxlevel:0;">Clownfish</div> -->
+            <!--
+            <div style="font-weight: 700; width:500px; font-family:'Open Sans', Lato, sans-serif; font-size:20px; color:#000; top:120px; left:730px; white-space:normal;" class="ls-l" data-ls="offsetxin:150; durationin:2000; easingin:easeInOutQuart; rotateyin:40; offsetxout:150; durationout:400; rotateyout:40; parallaxlevel:0;">Somos
+                una distribuidora y comercializadora enfocada en marcas extranjeras que quieren posicionarse dentro del
+                mercado mexicano en la industría de la moda, regalo y decoración. </div>
+-->
+            <!--            <a href="#" target="_blank" style="font-weight: 400; width:500px; font-family:'Open Sans', Lato, sans-serif; font-size:20px; top:250px; left:730px; color: rgba(222, 242, 255, 0.6); text-decoration: none;" class="ls-l btn btn-outline-dark waves-effect py-1" data-ls="offsetyin:-50; durationin:2000; delayin:2000; rotatexin:-40; offsetyout:-50; durationout:400; parallaxlevel:0;">Contáctanos</a>-->
+        </div>
+
+        <!-- Slide 1-->
+        <div class="ls-slide" data-ls="duration:7000; transition2d:92; timeshift:-1000; kenburnsscale:1.2;">
+            <img width="1280" height="720" src="images/slide1-blur2.jpg" class="ls-bg" alt="" />
+            <!-- <div style="top:117px; left:78px;" class="ls-l" data-ls="durationin:3000; delayin:1000; easingin:easeInOutQuad; scalexin:1.1; scaleyin:1.1; scalexout:.9; scaleyout:.9; parallaxlevel:0;">
+				<img src="images/slide1.png" alt="Jellyfish">
+			</div> -->
+
+            <div style="font-weight: 700; width:600px; font-family:'Open Sans', Lato, sans-serif; font-size:40px; color:#000; top:120px; left:50px; white-space:normal;" class="ls-l" data-ls="offsetxin:-150; durationin:2000; delayin:500; easingin:easeInOutQuart; rotateyin:-40; offsetxout:-150; rotateyout:-40; parallaxlevel:0;">Posicionate
+                en el mercado <br> <span style="color:#dee03c;">latinoamericano</span> con el<br> mejor distribuidor de
+                <span style="color:#dee03c;">México.</span></div>
+
+            <a href="#" target="_blank" style="font-weight: 400; width:300px; font-family:'Open Sans', Lato, sans-serif; font-size:20px; top:350px; left:50px; color: #231f20; text-decoration: none;" class="ls-l btn btn-outline-dark waves-effect py-1" data-ls="offsetyin:-50; durationin:2000; delayin:2500; rotatexin:-40; offsetyout:-50; durationout:400; parallaxlevel:0;">Contáctanos</a>
+        </div>
+
+
+    </div>
+
+
+    <section id="nosotros" class="my-5 py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                    <h2 class="cuerpo text-center">
+                        Somos una <span class="bold">distribuidora y comercializadora</span> enfocada en marcas
+                        extranjeras que quieren
+                        posicionarse dentro del mercado mexicano en la industría de la moda, regalo y decoración.
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="marcas" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <!-- Grid row -->
+                    <div class="row mx-0 mb-4 z-depth-1">
+                        <!-- Grid column -->
+                        <div class="col-lg-6 px-0">
+                            <!-- Featured image -->
+                            <div class="view overlay rounded  mb-lg-0 mb-4">
+                                <img class="img-fluid" src="img/card1.jpg" alt="Sample image">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-lg-6">
+                            <!-- Post title -->
+                            <h3 class="font-weight-bold my-3"><strong>Candy</strong></h3>
+                            <!-- Excerpt -->
+                            <p>Somos una boutique de moda infantil nacional e importadora, especializada en ropa casual
+                                y de ceremonia</p>
+                            <!-- Read more button -->
+                            <a class="btn btn-outline-black btn-block waves-effect mt-3 noShadow" href="#">Conócenos más</a>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+
+                </div>
+                <div class="col-12 col-md-6">
+                    <!-- Grid row -->
+                    <div class="row mx-0 mb-4 z-depth-1">
+                        <!-- Grid column -->
+                        <div class="col-lg-6 px-0">
+                            <!-- Featured image -->
+                            <div class="view overlay rounded  mb-lg-0 mb-4">
+                                <img class="img-fluid" src="img/card2.jpg" alt="Sample image">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-lg-6">
+                            <!-- Post title -->
+                            <h3 class="font-weight-bold my-3"><strong>Candy</strong></h3>
+                            <!-- Excerpt -->
+                            <p>Somos una boutique de moda infantil nacional e importadora, especializada en ropa casual
+                                y de ceremonia</p>
+                            <!-- Read more button -->
+                            <a class="btn btn-outline-black btn-block waves-effect mt-3 noShadow" href="#">Conócenos más</a>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+                <div class="col-12 col-md-6">
+                    <!-- Grid row -->
+                    <div class="row mx-0 mb-4 z-depth-1">
+                        <!-- Grid column -->
+                        <div class="col-lg-6 px-0">
+                            <!-- Featured image -->
+                            <div class="view overlay rounded  mb-lg-0 mb-4">
+                                <img class="img-fluid" src="img/card1.jpg" alt="Sample image">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-lg-6">
+                            <!-- Post title -->
+                            <h3 class="font-weight-bold my-3"><strong>Candy</strong></h3>
+                            <!-- Excerpt -->
+                            <p>Somos una boutique de moda infantil nacional e importadora, especializada en ropa casual
+                                y de ceremonia</p>
+                            <!-- Read more button -->
+                            <a class="btn btn-outline-black btn-block waves-effect mt-3 noShadow" href="#">Conócenos más</a>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+                <div class="col-12 col-md-6">
+                    <!-- Grid row -->
+                    <div class="row mx-0 mb-4 z-depth-1">
+                        <!-- Grid column -->
+                        <div class="col-lg-6 px-0">
+                            <!-- Featured image -->
+                            <div class="view overlay rounded  mb-lg-0 mb-4">
+                                <img class="img-fluid" src="img/card2.jpg" alt="Sample image">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-lg-6">
+                            <!-- Post title -->
+                            <h3 class="font-weight-bold my-3"><strong>Candy</strong></h3>
+                            <!-- Excerpt -->
+                            <p>Somos una boutique de moda infantil nacional e importadora, especializada en ropa casual
+                                y de ceremonia</p>
+                            <!-- Read more button -->
+                            <a class="btn btn-outline-black btn-block waves-effect mt-3 noShadow" href="#">Conócenos más</a>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-10 col-md-4">
+                    <a class="btn btn-outline-black btn-block waves-effect mt-3 noShadow" href="#">Ver más proyectos</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contacto" class="mt-5 py-5">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12">
+
+                    <!-- Material form contact -->
+                    <div class="card noShadow">
+                        <!-- Form -->
+                        <form action="PHPMailer/contacto.php" method="post">
+                            <!--Card content-->
+                            <div class="card-body px-lg-5 pt-0">
+
+                                <div class="row">
+                                    <div class="col-12 col-md-8">
+                                        <h2 class="bold"><strong>¿Quieres iniciar
+                                                operaciones en México?</strong></h2>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-row mb-4">
+                                    <!-- Name -->
+                                    <div class="col md-form">
+                                        <input type="text" id="nombre" name="nombre" class="form-control" required>
+                                        <label for="nombre">Nombre Completo</label>
+                                    </div>
+
+                                    <!-- E-mail -->
+                                    <div class="col-12 col-md-6 md-form">
+                                        <input type="email" id="email" name="email" class="form-control" readonly>
+                                        <label for="email">E-mail</label>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-row mb-4">
+                                    <!-- Apellido -->
+                                    <div class="col md-form">
+                                        <input type="text" id="ocupacion" name="ocupacion" class="form-control" required>
+                                        <label for="ocupacion">Ocupación</label>
+                                    </div>
+                                    <!-- Telefono -->
+                                    <div class="col-12 col-md-6 md-form">
+                                        <input type="tel" id="telefono" name="telefono" class="form-control" readonly>
+                                        <label for="telefono">Teléfono</label>
+                                    </div>
+                                </div>
+
+                                <!--Message-->
+                                <div class="form-row mb-4">
+                                    <div class="col-12 md-form">
+                                        <textarea type="text" id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
+                                        <label for="materialContactFormMessage">Mensaje</label>
+                                    </div>
+
+                                    <!-- Copy -->
+                                    <div class="col-12 form-check">
+                                        <input type="checkbox" class="form-check-input ml-2" id="materialContactFormCopy" value="Acepto el Aviso de Privacidad" required >
+                                        <label class="form-check-label ml-4" for="materialContactFormCopy">Acepto el Aviso de Privacidad</label>
+                                    </div>
+                                </div>
+                                <!-- Send button -->
+                                <button class="btn btn-black font-weight-bold btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Enviar</button>
+
+
+                        </form>
+                        <!-- Form -->
+
+                    </div>
+
+                </div>
+                <!-- Material form contact -->
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-4">
+               <div class="row mb-4">
+                   <div class="col-4"><a href="#"><img src="img/facebook.png" class="img-fluid"  alt=""></a></div>
+                   <div class="col-4"><a href="#"><img src="img/instagram.png"  class="img-fluid" alt=""></a></div>
+                   <div class="col-4 align-self-center"><a href="#"><img src="img/logo_candy.png" class="img-fluid"  alt=""></a></div>
+               </div> 
+            </div>
+            <div class="col-12 col-md-4">
+                <h3 class="text-black text-center">Traemos lo mejor del mundo a México.</h3>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/js/mdb.min.js"></script>
+    <!-- External libraries: jQuery & GreenSock -->
+    <script src="layerslider/js/greensock.js"></script>
+
+    <!-- LayerSlider script files -->
+    <script src="layerslider/js/layerslider.transitions.js"></script>
+    <script src="layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
+    <!-- Initializing the slider -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('#slider').layerSlider({
+                sliderVersion: '6.0.0',
+                responsiveUnder: 0,
+                layersContainer: 0,
+                slideBGSize: 'auto',
+                skin: 'v5',
+                skinsPath: 'layerslider/skins/'
+            });
+        });
+
+    </script>
+</body>
+
+</html>
